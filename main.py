@@ -11,14 +11,12 @@ flags = [
     {"country": "Япония", "img": "https://flagcdn.com/w320/jp.png"},
     {"country": "Бразилия", "img": "https://flagcdn.com/w320/br.png"},
     {"country": "Канада", "img": "https://flagcdn.com/w320/ca.png"},
-    {"country": "Россия", "img": "https://flagcdn.com/w320/ru.png"},
-    {"country": "США", "img": "https://flagcdn.com/w320/us.png"},
+    {"country": "США", "img": "https://flagcdn.com/w320/us.png"}
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Разрешить все источники (для разработки нормально)
-    allow_credentials=True,
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -45,5 +43,5 @@ def get_flag():
     return {
         "img": correct_flag["img"],
         "options": options,
-        "answer": correct_flag["country"]  # можно скрыть на фронте, если не нужно подглядывать
+        "answer": correct_flag["country"]
     }
