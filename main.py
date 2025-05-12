@@ -5,11 +5,11 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 flags = [
-    {"country": "Франция", "img": "https://flagcdn.com/w320/fr.png"},
-    {"country": "Германия", "img": "https://flagcdn.com/w320/de.png"},
-    {"country": "Италия", "img": "https://flagcdn.com/w320/it.png"},
-    {"country": "Япония", "img": "https://flagcdn.com/w320/jp.png"},
-    {"country": "Бразилия", "img": "https://flagcdn.com/w320/br.png"},
+    {"country": "Францiя", "img": "https://flagcdn.com/w320/fr.png"},
+    {"country": "Германiя", "img": "https://flagcdn.com/w320/de.png"},
+    {"country": "Iталiя", "img": "https://flagcdn.com/w320/it.png"},
+    {"country": "Японiя", "img": "https://flagcdn.com/w320/jp.png"},
+    {"country": "Бразилiя", "img": "https://flagcdn.com/w320/br.png"},
     {"country": "Канада", "img": "https://flagcdn.com/w320/ca.png"},
     {"country": "США", "img": "https://flagcdn.com/w320/us.png"}
 ]
