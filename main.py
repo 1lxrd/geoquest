@@ -6,7 +6,7 @@ app = FastAPI()
 
 flags = [
     {"country": "Францiя", "img": "https://flagcdn.com/w320/fr.png"},
-    {"country": "Германiя", "img": "https://flagcdn.com/w320/de.png"},
+    {"country": "Нiмеччина", "img": "https://flagcdn.com/w320/de.png"},
     {"country": "Iталiя", "img": "https://flagcdn.com/w320/it.png"},
     {"country": "Японiя", "img": "https://flagcdn.com/w320/jp.png"},
     {"country": "Бразилiя", "img": "https://flagcdn.com/w320/br.png"},
