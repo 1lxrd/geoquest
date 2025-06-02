@@ -11,8 +11,23 @@ flags = [
     {"country": "Японiя", "img": "https://flagcdn.com/w320/jp.png"},
     {"country": "Бразилiя", "img": "https://flagcdn.com/w320/br.png"},
     {"country": "Канада", "img": "https://flagcdn.com/w320/ca.png"},
-    {"country": "США", "img": "https://flagcdn.com/w320/us.png"}
+    {"country": "США", "img": "https://flagcdn.com/w320/us.png"},
+    {"country": "Велика Британiя", "img": "https://flagcdn.com/w320/gb.png"},
+    {"country": "Австралiя", "img": "https://flagcdn.com/w320/au.png"},
+    {"country": "Китай", "img": "https://flagcdn.com/w320/cn.png"},
+    {"country": "Iндiя", "img": "https://flagcdn.com/w320/in.png"},
+    {"country": "Пiвденна Корея", "img": "https://flagcdn.com/w320/kr.png"},
+    {"country": "Мексика", "img": "https://flagcdn.com/w320/mx.png"},
+    {"country": "Аргентина", "img": "https://flagcdn.com/w320/ar.png"},
+    {"country": "Швецiя", "img": "https://flagcdn.com/w320/se.png"},
+    {"country": "Норвегiя", "img": "https://flagcdn.com/w320/no.png"},
+    {"country": "Фiнляндія", "img": "https://flagcdn.com/w320/fi.png"},
+    {"country": "Туреччина", "img": "https://flagcdn.com/w320/tr.png"},
+    {"country": "Єгипет", "img": "https://flagcdn.com/w320/eg.png"},
+    {"country": "Польща", "img": "https://flagcdn.com/w320/pl.png"},
+    {"country": "Грецiя", "img": "https://flagcdn.com/w320/gr.png"}
 ]
+
 
 app.add_middleware(
     CORSMiddleware,
